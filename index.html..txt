@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita Fácil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .recipe-card {
+            background: white;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .recipe-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .recipe-card h3 {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Receita Fácil</h1>
+    <p>Receitas rápidas e deliciosas para o seu dia a dia!</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#categorias">Categorias</a>
+    <a href="#blog">Blog</a>
+    <a href="#sobre">Sobre Nós</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<div class="container">
+    <section id="destaques">
+        <h2>Receitas em Destaque</h2>
+        <div class="recipe-card">
+            <img src="https://via.placeholder.com/300" alt="Receita 1">
+            <h3>Macarrão Cremoso em 15 Minutos</h3>
+            <p>Um prato rápido e delicioso para toda a família.</p>
+            <a href="#">Ver Receita</a>
+        </div>
+        <div class="recipe-card">
+            <img src="https://via.placeholder.com/300" alt="Receita 2">
+            <h3>Bolo de Caneca de Chocolate</h3>
+            <p>Uma sobremesa prática e irresistível em poucos minutos.</p>
+            <a href="#">Ver Receita</a>
+        </div>
+    </section>
+
+    <section id="categorias">
+        <h2>Categorias</h2>
+        <ul>
+            <li><a href="#">Café da Manhã</a></li>
+            <li><a href="#">Almoço e Jantar</a></li>
+            <li><a href="#">Sobremesas</a></li>
+            <li><a href="#">Receitas Saudáveis</a></li>
+            <li><a href="#">Receitas Rápidas</a></li>
+        </ul>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Receita Fácil. Todos os direitos reservados.</p>
+    <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+</footer>
+
+</body>
+</html>
